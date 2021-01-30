@@ -6,6 +6,7 @@ import me.johanneslosch.shins.data.files.FileHelper;
 import me.johanneslosch.shins.data.files.ReadFile;
 import me.johanneslosch.shins.data.files.WriteFile;
 import me.johanneslosch.shins.data.files.config.ConfigReader;
+import me.johanneslosch.shins.data.files.config.ConfigWriter;
 
 import java.io.IOException;
 import java.util.Objects;
@@ -25,6 +26,9 @@ public class Setup {
       if (ConfigReader.read("data", "credentials", "BRIDGE_URL") == null){
         Initialisation.getHubIP();
       }
+
+      ConfigWriter.writePropertiesFile("data", "settings", "WEBSOCKET_IP", "localhost");
+      ConfigWriter.writePropertiesFile("data", "settings", "WEBSOCKET_PORT", "8887");
 
       if(ConfigReader.read("data", "credentials", "BRIDGE_TOKEN") == null){
         try {

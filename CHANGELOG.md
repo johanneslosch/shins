@@ -12,6 +12,9 @@
  - room light changer
    - rgb
    - Color.NAME
+ - added Web socket<br>
+   How to use it:<br>
+   `<roomName>;0x<hex>;<brightness>`
  - 
 
 ##     

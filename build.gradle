@@ -15,7 +15,7 @@ dependencies {
     compile "io.github.zeroone3010:yetanotherhueapi:2.0.0"
     // https://mvnrepository.com/artifact/org.json/json
     compile group: 'org.json', name: 'json', version: '20201115'
-
+    compile 'org.java-websocket:Java-WebSocket:1.5.1'
 }
 
 test {
