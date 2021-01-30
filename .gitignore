@@ -1,0 +1,12 @@
+credentials.md
+logs
+*.jar
+data/credentials.prop
+data/firstRun.dat
+
+# idea / gradle
+build
+.gradle
+.idea
+gradle
+*.iml

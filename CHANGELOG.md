@@ -1,4 +1,4 @@
-[UNRELEASED]
+[v1.0.0]
 
 ## technical
  - added ConfigHandler
@@ -15,6 +15,3 @@
  - added Web socket<br>
    How to use it:<br>
    `<roomName>;0x<hex>;<brightness>`
- - 
-
-##     
