@@ -36,7 +36,6 @@ public class ReadFile {
       String str;
 
       while ((str = in.readLine()) != null) {
-        System.out.println(str);
         Objects.requireNonNull(content).add(str);
       }
       in.close();
